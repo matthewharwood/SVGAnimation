@@ -1,0 +1,39 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #F68580;
+  overflow: hidden;
+}
+
+#canvas, #figures, #sitemap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
+}
+
+#sitemap {
+  padding: 0;
+  color: #FFF;
+}
+
+#sitemap li {
+  line-height: 24px;
+}
+
+#sitemap a {
+  color: #FFF;
+}
+
+#sitemap strong {
+  display: inline-block;
+  width: 120px;
+}
